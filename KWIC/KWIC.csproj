@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CircularList.cs" />
+    <Compile Include="DataProcessing.cs" />
     <Compile Include="InputMedia.cs" />
+    <Compile Include="Node.cs" />
     <Compile Include="OutputMedia.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
