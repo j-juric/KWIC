@@ -57,16 +57,6 @@ namespace KWIC
             }
         }
 
-        public void SortStorage()
-        {
-            this.storage.Sort();
-            this.data = new string[this.storage.Count];
-           
-            for(int i = 0; i < this.Storage.Count; i++)
-            {
-                this.data[i] = this.storage[i];
-            }
-        }
      
     }
 }

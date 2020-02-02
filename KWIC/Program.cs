@@ -25,9 +25,12 @@ namespace KWIC
 
             dp.FillLines();
             dp.FillStorage();
-            dp.SortStorage();
 
-            var om = new OutputMedia(output, dp.Data);
+            var ds = new DataSorting(dp.Storage);
+            ds.SortCapitalFirst();
+
+            var om = new OutputMedia(output, ds.Data);
+        
             om.OutputData();
 
         }

@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="CircularList.cs" />
     <Compile Include="DataProcessing.cs" />
+    <Compile Include="DataSorting.cs" />
     <Compile Include="InputMedia.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="OutputMedia.cs" />
